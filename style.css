@@ -1,0 +1,159 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header .menu .center-links {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.header .menu .auth-links {
+    display: flex;
+    gap: 10px; 
+}
+
+.header .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.header .menu a:hover {
+    color: #ff9800;
+}
+
+.auth-form {
+    display: inline-block;
+}
+
+.auth-form button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.main {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 20px;
+}
+
+
+.home-sidebar {
+    background-color: #ff9800; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.home-sidebar h3 {
+    color: #fff; 
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.home-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.home-sidebar ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 18px;
+    padding: 8px 15px;
+    background-color: #fff; 
+    border-radius: 10px;
+    display: block; 
+    transition: 0.3s; 
+}
+
+.home-sidebar ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.left-images {
+    display: block; 
+    flex: 0 0 40%; 
+}
+
+
+.image-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 90%; 
+    max-width: 600px; 
+    height: auto; 
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px; 
+}
+
+.content h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.footer {
+  background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
